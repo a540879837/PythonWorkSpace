@@ -1,0 +1,140 @@
+HTMLTestRunner	MyTest\all_case.py	/^import HTMLTestRunner$/;"	i
+alltestnames	MyTest\all_case.py	/^alltestnames = creatsuitel()$/;"	v
+creatsuitel	MyTest\all_case.py	/^def creatsuitel():$/;"	f
+description	MyTest\all_case.py	/^	description = u'用例执行情况：')$/;"	v
+filename	MyTest\all_case.py	/^filename = 'H:\\\\PythonWorkSpace\\\\MyTest\\\\report\\\\'+nowTime+'-result.html'$/;"	v
+fp	MyTest\all_case.py	/^fp = open(filename,'wb')$/;"	v
+listCase	MyTest\all_case.py	/^listCase = 'H:\\\\PythonWorkSpace\\\\MyTest\\\\data'$/;"	v
+nowTime	MyTest\all_case.py	/^nowTime = time.strftime(r"%Y-%m-%d-%H_%M_%S",time.localtime(time.time()))$/;"	v
+os	MyTest\all_case.py	/^import os,time$/;"	i
+runner	MyTest\all_case.py	/^runner = HTMLTestRunner.HTMLTestRunner($/;"	v
+stream	MyTest\all_case.py	/^	stream = fp,$/;"	v
+time	MyTest\all_case.py	/^import os,time$/;"	i
+title	MyTest\all_case.py	/^	title = u'ArticlesInputReport',$/;"	v
+unittest	MyTest\all_case.py	/^import unittest$/;"	i
+article_list	MyTest\data\interface_login.py	/^article_list = requests.post(url_aritcleList,data = json.dumps(pageNum),headers = headers,cookies = {'JSESSIONID':cookieJ})$/;"	v
+cookieJ	MyTest\data\interface_login.py	/^cookieJ = logIn_InterF.cookies['JSESSIONID']$/;"	v
+encodeJson	MyTest\data\interface_login.py	/^encodeJson = json.loads(article_list.text)$/;"	v
+headers	MyTest\data\interface_login.py	/^headers = {'content-type':'application\/json'}$/;"	v
+json	MyTest\data\interface_login.py	/^import json$/;"	i
+logIn_InterF	MyTest\data\interface_login.py	/^logIn_InterF = requests.post(url_login,data = json.dumps(userInfo),headers = headers)$/;"	v
+pageNum	MyTest\data\interface_login.py	/^pageNum = {'pageNum':'1'}$/;"	v
+requests	MyTest\data\interface_login.py	/^import requests$/;"	i
+url_aritcleList	MyTest\data\interface_login.py	/^url_aritcleList = "http:\/\/192.168.0.254\/kanqi_2.0_admin\/admin\/api\/recite\/article\/list"$/;"	v
+url_login	MyTest\data\interface_login.py	/^url_login="http:\/\/192.168.0.254\/kanqi_2.0_admin\/admin\/api\/login"$/;"	v
+userInfo	MyTest\data\interface_login.py	/^userInfo = {'password':'123456','userName':'admin'}$/;"	v
+webdriver	MyTest\data\interface_login.py	/^from selenium import webdriver$/;"	i
+By	MyTest\data\kanQi_ArticlesInput.py	/^from selenium.webdriver.common.by import By$/;"	i
+KanQiArticlesInput	MyTest\data\kanQi_ArticlesInput.py	/^class KanQiArticlesInput(unittest.TestCase):$/;"	c
+Keys	MyTest\data\kanQi_ArticlesInput.py	/^from selenium.webdriver.common.keys import Keys$/;"	i
+NoAlertPresentException	MyTest\data\kanQi_ArticlesInput.py	/^from selenium.common.exceptions import NoAlertPresentException$/;"	i
+NoSuchElementException	MyTest\data\kanQi_ArticlesInput.py	/^from selenium.common.exceptions import NoSuchElementException$/;"	i
+Select	MyTest\data\kanQi_ArticlesInput.py	/^from selenium.webdriver.support.ui import Select$/;"	i
+close_alert_and_get_its_text	MyTest\data\kanQi_ArticlesInput.py	/^    def close_alert_and_get_its_text(self):$/;"	m	class:KanQiArticlesInput
+is_alert_present	MyTest\data\kanQi_ArticlesInput.py	/^    def is_alert_present(self):$/;"	m	class:KanQiArticlesInput
+is_element_present	MyTest\data\kanQi_ArticlesInput.py	/^    def is_element_present(self, how, what):$/;"	m	class:KanQiArticlesInput
+location	MyTest\data\kanQi_ArticlesInput.py	/^from package import location$/;"	i
+re	MyTest\data\kanQi_ArticlesInput.py	/^import unittest, time, re$/;"	i
+setUp	MyTest\data\kanQi_ArticlesInput.py	/^    def setUp(self):$/;"	m	class:KanQiArticlesInput
+sys	MyTest\data\kanQi_ArticlesInput.py	/^import sys$/;"	i
+tearDown	MyTest\data\kanQi_ArticlesInput.py	/^    def tearDown(self):$/;"	m	class:KanQiArticlesInput
+test_kan_qi_articles_input	MyTest\data\kanQi_ArticlesInput.py	/^    def test_kan_qi_articles_input(self):$/;"	m	class:KanQiArticlesInput
+time	MyTest\data\kanQi_ArticlesInput.py	/^import unittest, time, re$/;"	i
+unittest	MyTest\data\kanQi_ArticlesInput.py	/^import unittest, time, re$/;"	i
+webdriver	MyTest\data\kanQi_ArticlesInput.py	/^from selenium import webdriver$/;"	i
+By	MyTest\data\kanQi_ArticlesSearch.py	/^from selenium.webdriver.common.by import By$/;"	i
+KanQiArticlesSearch	MyTest\data\kanQi_ArticlesSearch.py	/^class KanQiArticlesSearch(unittest.TestCase):$/;"	c
+Keys	MyTest\data\kanQi_ArticlesSearch.py	/^from selenium.webdriver.common.keys import Keys$/;"	i
+NoAlertPresentException	MyTest\data\kanQi_ArticlesSearch.py	/^from selenium.common.exceptions import NoAlertPresentException$/;"	i
+NoSuchElementException	MyTest\data\kanQi_ArticlesSearch.py	/^from selenium.common.exceptions import NoSuchElementException$/;"	i
+Select	MyTest\data\kanQi_ArticlesSearch.py	/^from selenium.webdriver.support.ui import Select$/;"	i
+TimeoutException	MyTest\data\kanQi_ArticlesSearch.py	/^from selenium.common.exceptions import TimeoutException$/;"	i
+WebDriverWait	MyTest\data\kanQi_ArticlesSearch.py	/^from selenium.webdriver.support.ui import WebDriverWait$/;"	i
+close_alert_and_get_its_text	MyTest\data\kanQi_ArticlesSearch.py	/^    def close_alert_and_get_its_text(self):$/;"	m	class:KanQiArticlesSearch
+is_alert_present	MyTest\data\kanQi_ArticlesSearch.py	/^    def is_alert_present(self):$/;"	m	class:KanQiArticlesSearch
+is_element_present	MyTest\data\kanQi_ArticlesSearch.py	/^    def is_element_present(self, how, what):$/;"	m	class:KanQiArticlesSearch
+location	MyTest\data\kanQi_ArticlesSearch.py	/^from package import location$/;"	i
+os	MyTest\data\kanQi_ArticlesSearch.py	/^import unittest, time, re, os$/;"	i
+re	MyTest\data\kanQi_ArticlesSearch.py	/^import unittest, time, re, os$/;"	i
+setUp	MyTest\data\kanQi_ArticlesSearch.py	/^    def setUp(self):$/;"	m	class:KanQiArticlesSearch
+sys	MyTest\data\kanQi_ArticlesSearch.py	/^import sys$/;"	i
+tearDown	MyTest\data\kanQi_ArticlesSearch.py	/^    def tearDown(self):$/;"	m	class:KanQiArticlesSearch
+test_kan_qi_articles_search	MyTest\data\kanQi_ArticlesSearch.py	/^    def test_kan_qi_articles_search(self):$/;"	m	class:KanQiArticlesSearch
+time	MyTest\data\kanQi_ArticlesSearch.py	/^import unittest, time, re, os$/;"	i
+unittest	MyTest\data\kanQi_ArticlesSearch.py	/^import unittest, time, re, os$/;"	i
+webdriver	MyTest\data\kanQi_ArticlesSearch.py	/^from selenium import webdriver$/;"	i
+num	MyTest\data\num.py	/^		num = int(txt)$/;"	v
+txt	MyTest\data\num.py	/^	txt = input('input:')$/;"	v
+clickAndHold	MyTest\package\location.py	/^def clickAndHold(driver,element):$/;"	f
+contextClick	MyTest\package\location.py	/^def contextClick(driver,element):$/;"	f
+doubleClick	MyTest\package\location.py	/^def doubleClick(driver,element):$/;"	f
+dragAndDrop	MyTest\package\location.py	/^def dragAndDrop(driver,element,target):$/;"	f
+eachFile	MyTest\package\location.py	/^def eachFile(filepath):$/;"	f
+findClassName	MyTest\package\location.py	/^def findClassName(driver,name):$/;"	f
+findCss	MyTest\package\location.py	/^def findCss(driver,css):$/;"	f
+findId	MyTest\package\location.py	/^def findId(driver,id):$/;"	f
+findLinkText	MyTest\package\location.py	/^def findLinkText(driver,text):$/;"	f
+findName	MyTest\package\location.py	/^def findName(driver,name):$/;"	f
+findPLinkText	MyTest\package\location.py	/^def findPLinkText(driver,text):$/;"	f
+findTagName	MyTest\package\location.py	/^def findTagName(driver,name):$/;"	f
+findXpath	MyTest\package\location.py	/^def findXpath(driver,xpath):$/;"	f
+findsClassName	MyTest\package\location.py	/^def findsClassName(driver,name):$/;"	f
+findsCss	MyTest\package\location.py	/^def findsCss(driver,css):$/;"	f
+findsId	MyTest\package\location.py	/^def findsId(driver,id):$/;"	f
+findsLinkText	MyTest\package\location.py	/^def findsLinkText(driver,text):$/;"	f
+findsName	MyTest\package\location.py	/^def findsName(driver,name):$/;"	f
+findsPLinkText	MyTest\package\location.py	/^def findsPLinkText(driver,Text):$/;"	f
+findsTagName	MyTest\package\location.py	/^def findsTagName(driver,name):$/;"	f
+findsXpath	MyTest\package\location.py	/^def findsXpath(driver,xpath):$/;"	f
+moveMouse	MyTest\package\location.py	/^def moveMouse(driver,element):$/;"	f
+readFile	MyTest\package\location.py	/^def readFile(filename):$/;"	f
+webdriver	MyTest\package\location.py	/^from selenium import webdriver$/;"	i
+writeFile	MyTest\package\location.py	/^def writeFile(filename):$/;"	f
+html_escape	MyTest\report\2017-03-29-15_43_42-result.html	/^function html_escape(s) {$/;"	f
+showCase	MyTest\report\2017-03-29-15_43_42-result.html	/^function showCase(level) {$/;"	f
+showClassDetail	MyTest\report\2017-03-29-15_43_42-result.html	/^function showClassDetail(cid, count) {$/;"	f
+showOutput	MyTest\report\2017-03-29-15_43_42-result.html	/^function showOutput(id, name) {$/;"	f
+showTestDetail	MyTest\report\2017-03-29-15_43_42-result.html	/^function showTestDetail(div_id){$/;"	f
+html_escape	MyTest\report\2017-03-30-11_10_18-result.html	/^function html_escape(s) {$/;"	f
+showCase	MyTest\report\2017-03-30-11_10_18-result.html	/^function showCase(level) {$/;"	f
+showClassDetail	MyTest\report\2017-03-30-11_10_18-result.html	/^function showClassDetail(cid, count) {$/;"	f
+showOutput	MyTest\report\2017-03-30-11_10_18-result.html	/^function showOutput(id, name) {$/;"	f
+showTestDetail	MyTest\report\2017-03-30-11_10_18-result.html	/^function showTestDetail(div_id){$/;"	f
+html_escape	MyTest\report\2017-03-30-11_10_30-result.html	/^function html_escape(s) {$/;"	f
+showCase	MyTest\report\2017-03-30-11_10_30-result.html	/^function showCase(level) {$/;"	f
+showClassDetail	MyTest\report\2017-03-30-11_10_30-result.html	/^function showClassDetail(cid, count) {$/;"	f
+showOutput	MyTest\report\2017-03-30-11_10_30-result.html	/^function showOutput(id, name) {$/;"	f
+showTestDetail	MyTest\report\2017-03-30-11_10_30-result.html	/^function showTestDetail(div_id){$/;"	f
+html_escape	MyTest\report\2017-03-30-11_11_16-result.html	/^function html_escape(s) {$/;"	f
+showCase	MyTest\report\2017-03-30-11_11_16-result.html	/^function showCase(level) {$/;"	f
+showClassDetail	MyTest\report\2017-03-30-11_11_16-result.html	/^function showClassDetail(cid, count) {$/;"	f
+showOutput	MyTest\report\2017-03-30-11_11_16-result.html	/^function showOutput(id, name) {$/;"	f
+showTestDetail	MyTest\report\2017-03-30-11_11_16-result.html	/^function showTestDetail(div_id){$/;"	f
+html_escape	MyTest\report\2017-03-30-11_12_00-result.html	/^function html_escape(s) {$/;"	f
+showCase	MyTest\report\2017-03-30-11_12_00-result.html	/^function showCase(level) {$/;"	f
+showClassDetail	MyTest\report\2017-03-30-11_12_00-result.html	/^function showClassDetail(cid, count) {$/;"	f
+showOutput	MyTest\report\2017-03-30-11_12_00-result.html	/^function showOutput(id, name) {$/;"	f
+showTestDetail	MyTest\report\2017-03-30-11_12_00-result.html	/^function showTestDetail(div_id){$/;"	f
+html_escape	MyTest\report\2017-03-30-16_54_08-result.html	/^function html_escape(s) {$/;"	f
+showCase	MyTest\report\2017-03-30-16_54_08-result.html	/^function showCase(level) {$/;"	f
+showClassDetail	MyTest\report\2017-03-30-16_54_08-result.html	/^function showClassDetail(cid, count) {$/;"	f
+showOutput	MyTest\report\2017-03-30-16_54_08-result.html	/^function showOutput(id, name) {$/;"	f
+showTestDetail	MyTest\report\2017-03-30-16_54_08-result.html	/^function showTestDetail(div_id){$/;"	f
+html_escape	MyTest\report\2017-04-06-23_09_06-result.html	/^function html_escape(s) {$/;"	f
+showCase	MyTest\report\2017-04-06-23_09_06-result.html	/^function showCase(level) {$/;"	f
+showClassDetail	MyTest\report\2017-04-06-23_09_06-result.html	/^function showClassDetail(cid, count) {$/;"	f
+showOutput	MyTest\report\2017-04-06-23_09_06-result.html	/^function showOutput(id, name) {$/;"	f
+showTestDetail	MyTest\report\2017-04-06-23_09_06-result.html	/^function showTestDetail(div_id){$/;"	f
+HTMLTestRunner	MyTest\test_case\test_case_public\module_login.py	/^import os,unittest,HTMLTestRunner,time$/;"	i
+NoSuchElementException	MyTest\test_case\test_case_public\module_login.py	/^from selenium.common.exceptions import NoSuchElementException$/;"	i
+login	MyTest\test_case\test_case_public\module_login.py	/^def login(self):$/;"	f
+os	MyTest\test_case\test_case_public\module_login.py	/^import os,unittest,HTMLTestRunner,time$/;"	i
+time	MyTest\test_case\test_case_public\module_login.py	/^import os,unittest,HTMLTestRunner,time$/;"	i
+unittest	MyTest\test_case\test_case_public\module_login.py	/^import os,unittest,HTMLTestRunner,time$/;"	i
+webdriver	MyTest\test_case\test_case_public\module_login.py	/^from selenium import webdriver$/;"	i
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_PROGRAM_VERSION	5.8	//
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/

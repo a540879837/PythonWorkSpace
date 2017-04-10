@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://192.168.0.254/index.html" />
+<title>kanQi_ArticlesInput_test_case</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">kanQi_ArticlesInput_test_case</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<!--start login-->
+<tr>
+	<td>type</td>
+	<td>id=J-LoginUserName</td>
+	<td>admin</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=J-LoginPwd</td>
+	<td>123456</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=登录</td>
+	<td></td>
+</tr>
+<!--end login-->
+<!--start articles input-->
+<tr>
+	<td>clickAndWait</td>
+	<td>link=文章管理</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=+ 添加文章</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=J-essayName</td>
+	<td>测试文章名称00001</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=contents</td>
+	<td>测试，文章内容0000001</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=J-submitBtn</td>
+	<td></td>
+</tr>
+<!--end articles input-->
+<tr>
+	<td>clickAndWait</td>
+	<td>link=文章管理</td>
+	<td></td>
+</tr>
+<!--搜索文章，验证是否添加成功-->
+<tr>
+	<td>type</td>
+	<td>id=J-searchName</td>
+	<td>测试文章名称00001</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#J-searchBtn &gt; img</td>
+	<td></td>
+</tr>
+<!--点击修改文章按钮 -->
+<tr>
+	<td>clickAndWait</td>
+	<td>link=修改</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=J-submitBtn</td>
+	<td></td>
+</tr>
+<!--退出-->
+<tr>
+	<td>clickAndWait</td>
+	<td>id=J-comLogoutBtn</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
